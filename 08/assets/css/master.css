@@ -1,0 +1,429 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+.full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.site-content {
+
+}
+
+.site-content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*site nav*/
+.site-nav {
+    padding-top: 20px;
+    background: none;
+    border: none;
+    box-shadow: none;
+    position: absolute;
+    width: 100%;
+}
+
+.site-nav .navbar-brand {
+    margin-top: -10px;
+    font-size: 22px;
+}
+
+.site-nav .navbar-brand img {
+    width: 40px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.site-nav .navbar-brand span {
+    display: inline-block;
+    color: white;
+}
+
+.site-nav a {
+    color: white;
+}
+
+.site-nav .navbar-nav li a {
+    border: none;
+    color: white;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 1px solid transparent;
+
+}
+
+.site-nav .navbar-nav li a:hover {
+    background: none;
+    color: white;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.site-nav .navbar-nav li.active > a {
+    background: none;
+    color: white;
+    border-bottom: 1px solid white;
+    box-shadow: none;
+}
+
+.site-nav .navbar-nav li.active a:hover {
+    background: none;
+    color: white;
+}
+
+/*navbar dropdown menus*/
+.site-nav ul.nav li.dropdown:hover ul.dropdown-menu {
+    display: block;
+}
+.site-nav ul.dropdown-menu {
+    background-color: white;
+    padding: 0;
+    min-width: 200px;
+}
+.site-nav ul.dropdown-menu li {
+    border-bottom: none;
+}
+
+.site-nav ul.dropdown-menu li:hover {
+    background-color: black;
+}
+.site-nav ul.dropdown-menu li a {
+    color: black;
+    border-bottom: 1px solid transparent;
+    margin: 0;
+    padding: 10px 10px;
+}
+.site-nav ul.dropdown-menu li a:hover {
+    border-bottom: 1px solid transparent;
+}
+
+/*footer*/
+
+footer {
+    padding: 20px 0;
+    border-top: 1px solid #000;
+    background-color: #000;
+    color: white;
+
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 10px;
+    border-bottom: 1px solid transparent;
+}
+
+footer ul li:hover {
+    border-bottom: 1px solid #bbb;
+}
+
+footer ul li:hover a{
+    color: #bbb;
+}
+
+footer ul li.active {
+    border-bottom: 1px solid white;
+}
+
+footer ul li a {
+    color: #777;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+footer ul li.active a {
+    color: white;
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+}
+
+footer .copyright {
+    margin: 60px 0;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #bbb;
+    text-shadow: 1px 1px #333;
+}
+
+/*hero section*/
+.hero-section{
+    width: 100%;
+    height: 500px;
+    float: left;
+    position: relative;
+}
+
+.hero-section .image{
+    width: 100%;
+    height: 100%;
+    background: no-repeat center;
+    background-size: cover;
+}
+
+.hero-section .image:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #000, #333333);
+    opacity: .2;
+}
+
+.hero-section .content{
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    width: 100%;
+}
+
+.hero-section .content .title {
+    font-size: 64px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+
+
+/*level 1*/
+.level-1 .pod {
+    width: 100%;
+    height: 800px;
+    float: left;
+    position: relative;
+}
+
+.level-1 .pod .image {
+    width: 100%;
+    height: 100%;
+    background: no-repeat center;
+    background-size: cover;
+}
+
+.level-1 .pod .image:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #000, #333333);
+    opacity: .2;
+}
+
+.level-1 .pod .content {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+}
+
+.level-1 .pod .content .title {
+    font-size: 64px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+
+.level-1 .pod .content .actions {
+    text-align: center;
+}
+
+.level-1 .pod .content .explore {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    letter-spacing: 1.2px;
+    color: #fff;
+    display: inline-block;
+    background-color: black;
+}
+
+.level-1 .pod .content .explore:hover {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+/*level 2*/
+.level-2 .pods {
+    margin-top: 5px;
+    padding-left: 5px;
+    float: left;
+    width: 100%;
+}
+.level-2 .pods:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.level-2 .pod {
+    width: 50%;
+    height: 460px;
+    float: left;
+    position: relative;
+    padding: 0 5px 5px 0;
+}
+
+.level-2 .pod .image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.level-2 .pod .image:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 5px;
+    bottom: 5px;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #000, #333333);
+    opacity: .3;
+}
+
+.level-2 .pod .image:before:hover {
+    opacity: 0;
+}
+
+.level-2 .pod .action-button {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 42px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.level-2 .pod .action-button:hover {
+    text-decoration: none;
+}
+
+/*profile page*/
+.profile .content-section {
+    float: left;
+    width: 100%;
+}
+
+.profile .description-section {
+    padding: 40px 0;
+}
+
+.profile .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    line-height: 1;
+    width: 100%;
+}
+.profile .site-content {
+    margin-bottom: 40px;
+}
+
+/*about page*/
+body.about .hero-section{
+    height: 300px;
+}
+body.about .description-section {
+    margin: 60px 0;
+    float: left;
+}
+
+/*contact-us page*/
+body.contact-us .hero-section {
+    height: 300px;
+}
+
+body.contact-us .contact-section {
+    margin: 20px 0 40px 0;
+    float: left;
+    width: 100%;
+}
+body.contact-us .contact-section .section {
+    float: left;
+    width: 50%;
+    padding: 0 20px;
+}
+body.contact-us .contact-section .section .title{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bbb;
+}
+body.contact-us .contact-section {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media only screen and (max-width: 768px) {
+    .level-1 .pod{
+        height: 500px;
+    }
+    .level-1 .pod .content .title {
+        font-size: 32px;
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px #000;
+    }
+    .level-1 .pod .content .explore {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .level-2 .pod {
+        width: 100%;
+    }
+    .site-nav .navbar-collapse {
+        background-color: white;
+    }
+    .site-nav .caret {
+        display: none;
+    }
+    .site-nav .dropdown-menu {
+        display: none;
+    }
+    .site-nav .navbar-nav {
+        margin: 0 -15px;
+    }
+    .site-nav .navbar-nav li.active {
+        background-color: black;
+    }
+    .site-nav .navbar-nav li.active a{
+        color: white;
+    }
+    .site-nav .navbar-nav li a {
+        margin: 0;
+        color: black;
+    }
+
+    body.contact-us .contact-section .section {
+        width: 100%;
+    }
+}

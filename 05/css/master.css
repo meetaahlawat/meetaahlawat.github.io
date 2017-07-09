@@ -1,0 +1,231 @@
+/*global styles*/
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #f1f1f1;
+}
+
+a:active, a:visited, a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#wrapper .site-nav {
+    height: 140px;
+    background-color: black;
+}
+
+#wrapper .site-nav .logo-section {
+    width: 300px;
+    display: inline-block;
+    float: left;
+    padding: 30px 0;
+}
+
+#wrapper .site-nav .logo-section img {
+    width: 80px;
+}
+
+#wrapper .site-nav .links-section {
+    font-family: 'Josefin Slab', serif;
+    width: 660px;
+    display: inline-block;
+    color: white;
+    float: left;
+    padding-top: 40px;
+    text-align: right;
+}
+
+#wrapper .site-nav .links-section a {
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 12px;
+    padding: 20px 5px 10px 5px;
+    text-decoration: none;
+    color: #888;
+}
+
+#wrapper .site-nav .links-section a:hover {
+    border-bottom: 1px solid #555;
+}
+
+#wrapper .site-nav .links-section a.active {
+    color: #fff;
+    border-bottom: 1px solid #dddddd;
+}
+
+.site-nav .links-section a:active, .site-nav .links-section a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#wrapper .site-content {
+    min-height: 600px;
+    padding: 40px 0 60px 0;
+    height: auto;
+}
+
+#wrapper .site-footer {
+    height: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+/*home page styles*/
+.site-content.home {
+    position: relative;
+    padding: 0;
+}
+
+.site-content.home .hero {
+    background-image: url("../img/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    opacity: 0.5;
+}
+
+.site-content.home .text-overlay {
+    position: absolute;
+    top: 220px;
+    left: 39%;
+    font-size: 52px;
+    text-align: center;
+}
+
+.site-content.home .text-overlay a {
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.site-content.home .text-overlay a:hover {
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+/*about page styles*/
+
+.site-content.about .mugshot-section {
+    width: 320px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    vertical-align: top;
+}
+
+.site-content.about .mugshot-section img {
+    width: 300px;
+}
+
+.site-content.about .me-section {
+    margin-left: 20px;
+    width: 615px;
+    display: inline-block;
+}
+
+.site-content.about .me-section p {
+    text-align: justify;
+}
+
+/*survival kit item styles*/
+.site-content.item .item-shot-section img {
+    width: 100%;
+}
+
+.site-content.item .item-content-section p {
+    text-align: justify;
+    /*line-height: 1.5em;*/
+    font-size: 20px;
+}
+
+.site-content.item {
+    position: relative;
+}
+
+.site-content.item .breadcrumbs a {
+    color: #222222;
+    text-decoration: underline;
+}
+
+/*survival kit styles*/
+
+.site-content.kit .item-container {
+    text-align: center;
+}
+
+.site-content.kit .item {
+    display: inline-block;
+    width: 280px;
+    height: 460px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    box-shadow: 2px 2px 2px #ddd;
+    -moz-box-shadow: 2px 2px 2px #ddd;
+    -webkit-box-shadow: 2px 2px 2px #ddd;
+    opacity: 0.7;
+}
+
+.site-content.kit .item:hover {
+    opacity: 1;
+}
+
+.site-content.kit .item img {
+    width: 100%;
+}
+
+/*contact styles*/
+
+.site-content.contact .info-section {
+    width: 480px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.site-content.contact .info-section div {
+    margin-bottom: 40px;
+}
+
+.site-content.contact .contact-form-section {
+    width: 475px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.site-content.contact .contact-form-section input,
+.site-content.contact .contact-form-section textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.site-content.contact .contact-form-section button {
+    padding: 10px 40px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+
+
+

@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'doodles';
+    src: url('../fonts/doodles/Digory_Doodles_PS.ttf');
+}
+
+@font-face {
+    font-family: 'misproject';
+    src: url('../fonts/Misproject/Truetype/MISPROJECT.TTF');
+}
+
+@font-face {
+    font-family: 'mothproof';
+    src: url('../fonts/mothproof/Mothproof_Script.ttf');
+}
+
+@font-face {
+    font-family: 'dudehankpro';
+    src: url('../fonts/DudeHankPro_Personal_License/Dude_HankSr.otf');
+}
+
+
+.quote-section {
+    padding: 200px 0;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.quote-section .quote {
+    font-size: 60px;
+}
+
+.quote-section .author {
+    font-size: 30px;
+}
+.quote-section.class-1 {
+    background-color: yellow;
+}
+
+.quote-section.class-1 .quote {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 900;
+    color: crimson;
+}
+
+.quote-section.class-1 .author {
+    font-family: 'Coming Soon', cursive;
+    text-align: left;
+}
+
+.quote-section.class-2 {
+    background-color: lightseagreen;
+}
+
+.quote-section.class-2 .quote {
+    font-family: 'Ultra', serif;
+
+}
+
+.measure {
+    border: 5px solid lightyellow;
+}
+
+.quote-section.class-2 .author {
+    font-family: 'Pacifico', cursive;
+
+}
+
+.important {
+    color: white;
+    font-size: 50px;
+    text-decoration: underline;
+
+}
+.quote-section.class-3 {
+    background-color: lightpink;
+}
+
+.quote-section.class-3 .quote {
+    font-family: 'doodles', sans-serif;
+    color: white;
+}
+
+.quote-section.class-3 .author {
+    font-family: 'misproject', sans-serif;
+    letter-spacing: 8px;
+    text-align: right;
+}
+
+.quote-section.class-4 {
+    background-color: tomato;
+}
+
+strong {
+    font-size: 90px;
+}
+
+.quote-section.class-4 .quote {
+    font-family: 'Montserrat Alternates', sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    color: #8c7373;
+}
+
+.quote-section.class-4 .author {
+    font-family: 'Freckle Face', cursive;
+}
+
+.quote-section.class-5 {
+    background-color: #8c7373;
+}
+
+.quote-section.class-5 .quote {
+    font-family: 'Finger Paint', cursive;
+    text-shadow: 2px 2px 8px #FF9900;
+
+}
+
+.quote-section.class-5 .author {
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+.quote-section.class-6 {
+    background-color: cornflowerblue;
+}
+
+.quote-section.class-6 .quote {
+    font-family: 'Mountains of Christmas', cursive;
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+.indigo {
+    color: indigo;
+}
+
+.violet {
+    color: darkviolet;
+}
+
+.quote-section.class-6 .author {
+    font-family: 'Codystar', cursive;
+    text-align: center;
+}
+
+.quote-section.class-7 {
+    background-color: khaki;
+}
+
+.quote-section.class-7 .quote {
+    color: darkblue;
+    text-decoration: underline;
+    font-family: 'mothproof', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.first-half {
+    filter: opacity(20%);
+}
+
+.half {
+    filter: opacity(60%);
+}
+
+.quote-section.class-7 .author {
+    color: black;
+    font-family: 'Buffon-Thin', sans-serif;
+    text-align: center;
+
+}
+
+.quote-section.class-8 {
+    background-color: brown;
+}
+
+.quote-section.class-8 .quote {
+    font-family: 'Coiny', cursive;
+    color: silver;
+}
+
+.quote-section.class-8 .author {
+    font-family: 'Bungee Hairline', cursive;
+    font-weight: 900;
+    font-style: italic;
+}
